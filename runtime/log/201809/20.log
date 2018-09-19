@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2018-09-20T00:35:02+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.256742s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.161112s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.308204s ]
