@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 引入外部cs文件  __STATIC__代表 'public/static' 中的路径 外部js文件的引入形式-->
+    <link href="__STATIC__/index.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="__STATIC__/index.js"></script>
+    <title>模板文件</title>
+</head>
+<body>
+
+<{$arr.1}>
+<{$arr[0]}>
+
+__STATIC__ <!-- 当前目录是 ./lvyou/public -->
+<br>
+模板文件输出控制器controller中分配出来的变量 <{$var}>
+<br>
+<font>字体</font>
+</body>
+</html>
+<script>
+
+
+    window.onload = function(){
+        //执行外部引入的js函数
+        _createNode();
+
+    }
+</script>

@@ -1,0 +1,90 @@
+---------------------------------------------------------------
+[ 2018-09-19T02:06:32+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/detail.html?id=40&imgCount=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.143421s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.079276s ]
+[ sql ] [ SQL ] SELECT * FROM `lvyou_crawler` WHERE  (  id = 40 ) ORDER BY `surl` ASC LIMIT 1 [ RunTime:0.081504s ]
+---------------------------------------------------------------
+[ 2018-09-19T02:06:39+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.147059s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.093616s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.237422s ]
+---------------------------------------------------------------
+[ 2018-09-19T19:49:48+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.217812s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.101159s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.236540s ]
+---------------------------------------------------------------
+[ 2018-09-19T19:49:50+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/detail.html?id=28&imgCount=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.148014s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.095065s ]
+[ sql ] [ SQL ] SELECT * FROM `lvyou_crawler` WHERE  (  id = 28 ) ORDER BY `surl` ASC LIMIT 1 [ RunTime:0.101287s ]
+---------------------------------------------------------------
+[ 2018-09-19T19:49:58+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128076s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.087684s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.200777s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:03:47+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.171624s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.089867s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.229102s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:03:50+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/detail.html?id=9&imgCount=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.150556s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.093991s ]
+[ sql ] [ SQL ] SELECT * FROM `lvyou_crawler` WHERE  (  id = 9 ) ORDER BY `surl` ASC LIMIT 1 [ RunTime:0.097112s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:03:59+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125562s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.082588s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.204103s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:04:01+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/detail.html?id=45&imgCount=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125481s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.081563s ]
+[ sql ] [ SQL ] SELECT * FROM `lvyou_crawler` WHERE  (  id = 45 ) ORDER BY `surl` ASC LIMIT 1 [ RunTime:0.085449s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:04:18+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132784s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.082387s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.220411s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:07:22+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.164123s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.097661s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.244995s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:10:32+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.144165s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.092717s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.245866s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:10:36+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.143150s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.092077s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.230372s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:10:39+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.142051s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.091849s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.233285s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:10:50+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/detail.html?id=3&imgCount=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.150945s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.094012s ]
+[ sql ] [ SQL ] SELECT * FROM `lvyou_crawler` WHERE  (  id = 3 ) ORDER BY `surl` ASC LIMIT 1 [ RunTime:0.097262s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:33:52+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.251348s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.097901s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.233511s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:33:54+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/detail.html?id=51&imgCount=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146339s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.093852s ]
+[ sql ] [ SQL ] SELECT * FROM `lvyou_crawler` WHERE  (  id = 51 ) ORDER BY `surl` ASC LIMIT 1 [ RunTime:0.099056s ]
+---------------------------------------------------------------
+[ 2018-09-19T20:35:01+08:00 ] 0.0.0.0 GET /lvyou/index/attraction/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140603s ] mysql:host=xdm509610484.my3w.com;port=3306;dbname=xdm509610484_db;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lvyou_crawler` [ RunTime:0.088078s ]
+[ sql ] [ SQL ] SELECT `id`,`sname`,`surl`,`more_desc`,`picUrls` FROM `lvyou_crawler` ORDER BY `surl` ASC [ RunTime:0.181697s ]

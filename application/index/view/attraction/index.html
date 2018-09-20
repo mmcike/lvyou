@@ -1,0 +1,44 @@
+<{assign name="title" value="$index_title" /}>
+<{assign name="li_index" value="2" /}>
+<!-- 导入公共头文件 -->
+<{include file="commen/header" /}>
+<div class="container">
+        <div class="col-md-12 column">
+
+
+            <table class="table table-striped table-hover" style="table-layout:fixed">
+                <caption><h2>桂林旅游景点展示</h2></caption>
+                <thead>
+                <tr>
+                    <th class="col-md-1 text-center">序号</th>
+                    <th class="col-md-2">景点名称</th>
+                    <th>景点描述</th>
+                    <th class="col-md-1">更多</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php $order = 0;?>
+                <{volist name="brief" id="vo"}>
+                <?php
+                    $order++;
+                    $voArr = explode(" ", $vo["picUrls"]);
+                ?>
+                <tr class="">
+                    <td class="text-center"><{$order}></td>
+                    <td class=""><{$vo['sname']}></td>
+                    <td style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis;"><{$vo["more_desc"]}></td>
+                    <td>
+                        <!--<img src="__IMAGES__/<?php //echo $voArr[$i];?>"  alt="@Model[i].sname"  height="120" width="360"/>-->
+                        <button type="button" class="btn btn-success" onclick="javascript:location='<{:url('attraction/detail')}>?id=<{$vo['id']}>&imgCount=<{$voArr|count}>'">详情</button>
+                    </td>
+                </tr>
+
+                <{/volist}>
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </div>
+</div>
